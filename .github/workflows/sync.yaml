@@ -1,0 +1,36 @@
+name: Sync this repo
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  sync-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Pants
+        uses: actions/checkout@v3
+          with:
+            repository: pantsbuild/pants
+            sparse-checkout: |
+              docs/**
+              src/python/pants/**
+            path: pants
+      - name: Checkout this repo
+        uses: actions/checkout@v3
+          with:
+            path: pants-docs
+            ref: automation
+      - name: copy
+        run: cp -r pants pants-docs
+      - name: convert
+        run: python convert.py
+      - name: push
+        run: |
+          git checkout -b main
+          git config --global user.name 'Docsbot'
+          git config --global user.email 'docsbot@users.noreply.github.com'
+          git commit -am "Pushing"
+          git push -f
