@@ -1,0 +1,5 @@
+mkdocs
+mkdocs-material
+mkdocs-redirects
+mkdocs-gen-files
+mkdocs-awesome-pages-plugin >= 2.9.2
