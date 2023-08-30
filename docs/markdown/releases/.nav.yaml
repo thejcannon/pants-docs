@@ -1,0 +1,4 @@
+nav:
+  - changelog.md
+  - deprecation-policy.md
+  - upgrade-tips.md

@@ -1,0 +1,61 @@
+.md-header {
+  background-color: white;
+  color: black;
+}
+
+.md-search__form {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.md-search__input + .md-search__icon {
+  color: black;
+}
+
+.md-search__input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+.md-search__input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: black;
+}
+
+.md-search__input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: black;
+}
+
+.purple,
+.purple * {
+  color: purple !important;
+}
+
+.green,
+.green * {
+  color: green !important;
+}
+
+.red,
+.red * {
+  color: green !important;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.my-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.pl-2 {
+  padding-left: 2em !important;
+}

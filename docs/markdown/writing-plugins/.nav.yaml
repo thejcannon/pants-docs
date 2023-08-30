@@ -1,0 +1,6 @@
+nav:
+  - index.md
+  - macros.md
+  - The Target API: target-api
+  - The Rules API: rules-api
+  - Common plugin tasks: common-plugin-tasks

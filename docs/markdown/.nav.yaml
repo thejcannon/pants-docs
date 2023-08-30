@@ -1,0 +1,17 @@
+nav:
+  - Introduction: introduction
+  - Getting Started: getting-started
+  - Getting Help: getting-help
+  - Using Pants: using-pants
+  - Python: python
+  - Go: go
+  - Java and Scala: java-and-scala
+  - Shell: shell
+  - Docker: docker
+  - Helm: helm
+  - Ad-Hoc Tools: adhoc-tools
+  - Writing Plugins: writing-plugins
+  - Releases: releases
+  - Contributions: contributions
+  - Tutorials: tutorials
+  - Reference: reference

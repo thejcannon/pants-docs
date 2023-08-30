@@ -1,0 +1,10 @@
+nav:
+  - index.md
+  - plugins-lint-goal.md
+  - plugins-fmt-goal.md
+  - plugins-typecheck-goal.md
+  - plugins-codegen.md
+  - plugins-repl-goal.md
+  - plugins-test-goal.md
+  - plugins-setup-py.md
+  - plugin-upgrade-guide.md

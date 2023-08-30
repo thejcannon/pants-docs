@@ -1,0 +1,8 @@
+nav:
+  - index.md
+  - contributor-setup.md
+  - style-guide.md
+  - contributions-rust.md
+  - internal-rules-architecture.md
+  - contributions-debugging.md
+  - running-pants-from-sources.md

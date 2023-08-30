@@ -1,0 +1,9 @@
+nav:
+  - index.md
+  - python-check-goal.md
+  - python-fmt-goal.md
+  - python-lint-goal.md
+  - python-package-goal.md
+  - python-repl-goal.md
+  - python-run-goal.md
+  - python-test-goal.md

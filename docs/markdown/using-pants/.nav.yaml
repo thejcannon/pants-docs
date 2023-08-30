@@ -1,0 +1,15 @@
+nav:
+  - Key Concepts: concepts
+  - command-line-help.md
+  - troubleshooting.md
+  - advanced-target-selection.md
+  - project-introspection.md
+  - assets.md
+  - using-pants-in-ci.md
+  - setting-up-an-ide.md
+  - Remote caching & execution: remote-caching-execution
+  - environments.md
+  - generating-version-tags.md
+  - anonymous-telemetry.md
+  - restricted-internet-access.md
+  - validating-dependencies.md
